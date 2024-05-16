@@ -66,7 +66,31 @@ h1 {
 .box h2 {
   color: #333;
 }
+h2 i.fab  {
+  color: #1da1f2;
+  margin-right: 10px;
+}
 .box p {
   color: #666;
   font-size: 14px;
+}
+main {
+  padding: 20px;
+  flex: 1;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+#social-feed {
+  margin: 20px 0;
+}
+
+#twitter-feed {
+  max-width: 500px;
+  margin: 0 auto;
 }

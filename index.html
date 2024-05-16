@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hello World</title>
   <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <nav class="navbar">
@@ -55,5 +56,17 @@
       <button class="view-details" onclick="location.href='#'">View Details</button>
     </div>
   </div>
+  <main>
+    <section id="social-feed">
+      <h2><i class="fa fa-twitter-square" style="font-size:48px;color:red"></i>Latest Tweets</h2>
+      <div id="twitter-feed">
+        <a class="twitter-timeline" href="https://twitter.com/TwitterDev">Tweets by TwitterDev</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </section>
+  </main>
+    <footer>
+      <p>&copy; 2024 My Website</p>
+    </footer>
 </body>
 </html>
